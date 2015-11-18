@@ -20,7 +20,7 @@ with open(fname) as fh:
     count = 0
     for line in fh:
         if re.search("From ", line):
-            email = re.findall('\w[\w\-\.]+@\w+.[\w\.\-]+', line)[0]
+            email = re.findall('[^ ]+@[^ ]+', line)[0]
             print email
             count += 1
 

@@ -13,7 +13,7 @@ with open(fname, 'r') as fh:
     dir = {}
     for line in fh:
         if re.search("From ", line):
-            key = re.findall('\w[\w\.\-]+@\w+.[\w\.\-]+', line)[0]
+            key = re.findall('[^ ]+@[^ ]+', line)[0]
             dir[key] = dir.get(key, 0)+ 1
 
 key = list(dir.keys())
