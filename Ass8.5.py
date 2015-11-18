@@ -1,5 +1,6 @@
 # 8.5
-# created by: Liu Li
+# Liu Li
+# 18 Nov, 2015
 
 '''
 Open the file mbox-short.txt and read it line by line. When you find a line that starts with 'From ' like the following line:

@@ -1,5 +1,6 @@
 # Ass6.5
-# created by: Liu Li
+# Liu Li
+# 18 Nov, 2015
 
 '''
 Write code using find() and string slicing (see section 6.10) to extract the number at the end of the line below. Convert the extracted value to a floating point number and print it out.
@@ -17,4 +18,3 @@ print float(num)
 import re
 num = re.findall("\d*\.\d+", text)[0]
 print float(num)
-

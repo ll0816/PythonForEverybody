@@ -1,5 +1,6 @@
 # Ass7.2
-# created by: Liu Li
+# Liu Li
+# 18 Nov, 2015
 '''
 Write a program that prompts for a file name, then opens that file and reads through the file, looking for lines of the form:
 X-DSPAM-Confidence:    0.8475

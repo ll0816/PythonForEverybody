@@ -1,5 +1,5 @@
 # 9.4
-# created by: Liu Li
+# Liu Li
 # 18 Nov, 2015
 
 '''
