@@ -15,7 +15,7 @@ with open(fname, 'r') as fh:
     dir = {}
     for line in fh:
         if re.search("From ", line):
-            h = re.findall('[\s]([\d]{2})\:', line)[0]
+            h = re.findall('\s(\d{2})\:', line)[0]
             dir[h] = dir.get(h, 0) + 1
 key = sorted(list(dir.keys()))
 for k in key:

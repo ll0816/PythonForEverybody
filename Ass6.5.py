@@ -16,5 +16,5 @@ print float(num)
 
 # 2. extract the float number by using Regex match the pattern of float number.
 import re
-num = re.findall("\d*\.\d+", text)[0]
+num = re.findall("\d+.\d+", text)[0]
 print float(num)
