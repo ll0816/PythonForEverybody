@@ -13,14 +13,15 @@ You can download the sample data at http://www.pythonlearn.com/code/mbox-short.t
 
 # fname = raw_input("Enter file name: ")
 #if len(fname) < 1 : fname = "mbox-short.txt"
+import re
 fname = "mbox-short.txt"
 
 with open(fname) as fh:
     count = 0
     for line in fh:
-        if line.startswith("From "):
-            line = line.rstrip("\n")
-            print line.split(" ")[1]
+        if re.search("From ", line):
+            email = re.findall('[\w][\w\-\.]+\@[\w]+\.[\w\.\-]+', line)[0]
+            print email
             count += 1
 
 print "There were", count, "lines in the file with From as the first word"

@@ -7,17 +7,16 @@ Write a program to read through the mbox-short.txt and figure out the distributi
 From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008
 Once you have accumulated the counts for each hour, print out the counts, sorted by hour as shown below.
 '''
-
+import re
 # name = raw_input("Enter file:")
 # if len(name) < 1 : name = "mbox-short.txt"
 fname = "mbox-short.txt"
 with open(fname, 'r') as fh:
     dir = {}
     for line in fh:
-        if line.startswith("From "):
-            id = line.find(":")
-            sub = line[id-2:id]
-            dir[sub] = dir.get(sub, 0) + 1
+        if re.search("From ", line):
+            h = re.findall('[\s]([\d]{2})\:', line)[0]
+            dir[h] = dir.get(h, 0) + 1
 key = sorted(list(dir.keys()))
 for k in key:
     print k,dir[k]
