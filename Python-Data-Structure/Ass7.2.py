@@ -17,7 +17,7 @@ with open(fname, 'r') as fh:
     count = 0
     for line in fh:
         if line.startswith("X-DSPAM-Confidence:"):
-            str_num = re.findall('\d+.\d+', line)[0]
+            str_num = re.findall('[0-9.]+', line)[0]
             accumulator += float(str_num)
             count += 1
 
