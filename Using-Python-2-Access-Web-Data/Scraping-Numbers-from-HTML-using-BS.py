@@ -1,4 +1,7 @@
 # Scraping Numbers from HTML using BeautifulSoup
+# Liu Li
+# 2015-11-20
+
 '''
 In this assignment you will write a Python program similar to http://www.pythonlearn.com/code/urllink2.py. The program will use urllib to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
 
