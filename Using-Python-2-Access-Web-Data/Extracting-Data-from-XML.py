@@ -7,8 +7,8 @@ In this assignment you will write a Python program somewhat similar to http://ww
 
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
 
-Sample data: http://python-data.dr-chuck.net/comments_42.xml (Sum=2553)
-Actual data: http://python-data.dr-chuck.net/comments_200531.xml (Sum ends with 32)
+Sample data: http://python-data.dr-chuck.net/comments_42.xml (Sum=2482)
+Actual data: http://python-data.dr-chuck.net/comments_200531.xml (Sum ends with 11)
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
 Data Format and Approach
 The data consists of a number of names and comment counts in XML as follows:
@@ -25,11 +25,11 @@ Take a look at the Python ElementTree documentation and look for the supported X
 Sample Execution
 
 $ python solution.py
-Enter location: http://pr4e.dr-chuck.com/tsugi/mod/python-data/data/comments_42.xml
-Retrieving http://pr4e.dr-chuck.com/tsugi/mod/python-data/data/comments_42.xml
-Retrieved 4210 characters
+Enter location: http://python-data.dr-chuck.net/comments_42.xml
+Retrieving http://python-data.dr-chuck.net/comments_42.xml
+Retrieved 4204 characters
 Count: 50
-Sum: 2553
+Sum: 2482
 '''
 
 import urllib

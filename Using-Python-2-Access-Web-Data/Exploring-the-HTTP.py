@@ -1,6 +1,7 @@
 # Exploring the HyperText Transport Protocol
 # Liu Li
 # 2015-11-20
+
 '''
 You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
 
