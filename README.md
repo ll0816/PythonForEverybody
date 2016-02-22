@@ -1,18 +1,19 @@
 Python For  Everyone
 =====================
-*Liu Li*  
-18 Nov, 2015
+*Liu L.*  
+Created by: 18 Nov, 2015  
+Updated by: 22 Feb, 2016
 
 ------------
-This is my Code Archive for  coursers in Python for everyone specialization on [Coursera](https://www.coursera.org/).
+The purpose of this repository is to archive my code from courses in Python for everyone specialization on [Coursera](https://www.coursera.org/).
 
-Links to Archives
+Links to Archives on My Github
 ----------------------------
-1.  [Python Data Structure](https://www.coursera.org/learn/python-data)
-2.  [Using Python for to Access Web Data](https://www.coursera.org/learn/python-network-data)
-3.  [Using Databases with Python](https://www.coursera.org/learn/python-databases)
+1.  [Python Data Structure](https://github.com/ll0816/PythonForEverybody/tree/master/Python-Data-Structure)
+2.  [Using Python for to Access Web Data](https://github.com/ll0816/PythonForEverybody/tree/master/Using-Python-2-Access-Web-Data)
+3.  [Using Databases with Python](https://github.com/ll0816/PythonForEverybody/tree/master/Using-Databases-with-Python)
 
-Links to Courses
+Links to Courses on Coursera
 -------------------------
 1.  [Python Data Structure](https://www.coursera.org/learn/python-data)
 2.  [Using Python for to Access Web Data](https://www.coursera.org/learn/python-network-data)
